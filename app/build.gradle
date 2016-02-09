@@ -24,9 +24,50 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
 
+    //OPTION 1
     compile project(':library')
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:appcompat-v7:23.1.1'
+
+
+    //OPTION 2
+    /*
+    final SUPPORT_LIBRARY_VERSION = '23.1.1'
+    compile "com.android.support:customtabs:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
+    compile 'com.google.android.gms:play-services:3.1.36'
+    compile files('libs/android-query-full.0.26.8.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.github.rey5137:material:1.1.1'
+    compile 'com.mcxiaoke.viewpagerindicator:library:2.4.1@aar'
+    compile 'com.ogaclejapan.smarttablayout:library:1.2.3@aar'
+    compile 'com.lorentzos.swipecards:library:1.0.9@aar'
+    compile 'se.emilsjolander:android-flipview:1.1.0'
+    compile 'com.timehop.stickyheadersrecyclerview:library:0.4.1@aar'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.bartoszlipinski.flippablestackview:library:1.2.1'
+    compile 'jp.wasabeef:recyclerview-animators:2.1.0'
+    compile 'com.google.maps.android:android-maps-utils:0.3.4'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.github.lsjwzh.RecyclerViewPager:lib:v1.1.0-beta3'
+    compile 'com.github.lsjwzh.RecyclerViewPager:tablayoutsupport:v1.1.0-beta2'
+    compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    compile 'com.flyco.roundview:FlycoRoundView_Lib:1.1.2@aar'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:1.5.0@aar'
+    compile 'com.nshmura:recyclertablayout:0.1.3'
+    compile 'com.github.ahorn:android-rss:v1.0-rc1'
+    compile 'com.simplecityapps:recyclerview-fastscroll:1.0.5'
+    compile project(':lib')
+    */
+
+
+
+
+
     compile 'com.mikepenz:iconics-core:2.5.3@aar'
     compile 'com.mikepenz:fontawesome-typeface:4.5.0.1@aar'
     compile 'xyz.danoz:recyclerviewfastscroller:0.1.3'
